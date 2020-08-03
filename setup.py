@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # vim:fileencoding=utf-8:noet
 
-from setuptools import setup
+from distutils.core import setup
 
 from certifi import __version__
 
