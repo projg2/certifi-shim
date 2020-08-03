@@ -9,5 +9,5 @@ def where():
 
 
 def contents():
-    with open(where(), "r", encoding="ascii") as f:
+    with open(where(), "r") as f:
         return f.read()
